@@ -1,0 +1,177 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[fleqn]{mathtools}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{nccmath}
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage{tasks}
+\usepackage{color}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% \usepackage[spanish]{babel}
+
+\definecolor{colorIPN}{rgb}{0.5, 0.0,0.13}
+\definecolor{colorESCOM}{rgb}{0.0, 0.5,1.0}
+\graphicspath{ {imagenes/} }
+
+\begin{document}
+%#########################################################
+\begin{titlepage}
+	\centering
+	{ \huge \bfseries \color{colorIPN}{Instituto Politécnico Nacional} \par}
+	{ \Large \bfseries  \color{colorESCOM}{Escuela Superior de Cómputo} \par }
+	\vspace{1cm}
+	{\huge\Large \color{colorIPN}{Probability and Statistics research}.\par}
+	\vspace{1.5cm}
+	{\huge\Large  \color{colorESCOM}{From Statistical Estimation to Bayesian Classification: Modeling Human-AI Interaction}\par}
+		\vspace{2cm}
+	{\Large\itshape \color{colorIPN}{Professor:Elena Fabiola Ruiz Ledesma }\par} \hfill \break
+	\vspace{2cm}
+	{\Large\itshape \color{colorIPN}{Alumno: Sánchez Ruiz Leonardo}\par} \hfill \break
+	{\Large\itshape \color{colorIPN}{sanchez.ruiz.leonardo9@gmail.com}\par} \hfill \break
+	{\Large\itshape \color{colorIPN}{4BM2} \par}
+	\vfill
+	{\large \color{colorIPN}{\today}\par} 
+	\vfill
+\end{titlepage}
+
+\renewcommand\lstlistingname{Quelltext} 
+
+
+\lstset{ 
+	language=Java,
+	basicstyle=\small\sffamily,
+	numbers=left,
+	numberstyle=\tiny,
+	frame=tb,
+	tabsize=4,
+	columns=fixed,
+	showstringspaces=false,
+	showtabs=false,
+	keepspaces,
+	commentstyle=\color{Violet},
+	keywordstyle=\color{colorIPN} \bfseries,
+	stringstyle=\color{colorESCOM}
+}
+
+\settasks{
+	counter-format=(tsk[r]),
+	label-width=4ex
+}
+\tableofcontents 
+\pagebreak
+\listoffigures
+\pagebreak
+\listoftables
+\pagenumbering {arabic}
+
+\pagebreak
+
+\begin{abstract}
+...
+\end{abstract}
+
+\section{{\color{colorIPN}{Introduction}}}
+
+\section{{\color{colorIPN}{Literature Review}}}
+
+\section{{\color{colorIPN}{Research Method}}}
+Data was collected through a questionnaire designed to evaluate behavioral and emotional dependency toward artificial intelligence systems.
+
+A dependency score was constructed using multiple Likert-scale questions related to emotional reliance, trust, and behavioral attachment. Internal consistency was evaluated using Cronbach's alpha.
+
+To evaluate differences in dependency levels between high and low AI usage groups, an independent samples t-test was conducted.
+
+Additionally, a chi-square test of independence was used to examine the relationship between social interaction frequency and dependency level.
+\subsection{Independent Samples t-Test}
+
+To evaluate whether high AI usage is associated with higher dependency levels, an independent samples t-test was conducted comparing the mean dependency scores between high-usage and low-usage users.
+
+The null and alternative hypotheses were defined as follows:
+
+\[
+H_0: \mu_1 = \mu_2
+\]
+
+\[
+H_1: \mu_1 > \mu_2
+\]
+
+where:
+\begin{itemize}
+    \item $\mu_1$ represents the mean dependency score of high-usage users
+    \item $\mu_2$ represents the mean dependency score of low-usage users
+\end{itemize}
+
+Under the null hypothesis, the difference between sample means is expected to be close to zero. According to the Central Limit Theorem, the sampling distribution of the difference of means approximately follows a normal distribution for sufficiently large sample sizes.
+
+The test statistic was computed using Welch's t-test:
+
+\[
+t =
+\frac{\bar{x}_1 - \bar{x}_2}
+{
+\sqrt{
+\frac{s_1^2}{n_1} +
+\frac{s_2^2}{n_2}
+}
+}
+\]
+
+where:
+\begin{itemize}
+    \item $\bar{x}_1$ and $\bar{x}_2$ are the sample means
+    \item $s_1^2$ and $s_2^2$ are the sample variances
+    \item $n_1$ and $n_2$ are the sample sizes
+\end{itemize}
+
+The sample variance for each group was estimated using:
+
+\[
+s^2 =
+\frac{1}{n-1}
+\sum_{i=1}^{n}
+(x_i - \bar{x})^2
+\]
+
+The resulting p-value obtained from the test was:
+
+\[
+p = 0.003
+\]
+
+Using a significance level of $\alpha = 0.05$, the null hypothesis was rejected since:
+
+\[
+p < \alpha
+\]
+
+This result provides statistically significant evidence that high-usage users exhibit greater dependency scores than low-usage users.
+\section{{\color{colorIPN}{Results and Discussion}}}
+
+\section{{\color{colorIPN}{Conclusion}}}
+
+\end{document}
+
+
+\color{colorIPN}{
+	\begin{flushright}
+		\textit{
+			Sánchez Ruiz Leonardo
+		}
+	\end{flushright} \hfill \break
+}
+
+\pagebreak
+
+%################################################
+
+\end{document}
