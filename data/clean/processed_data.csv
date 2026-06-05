@@ -1,0 +1,141 @@
+age,career,ai_hours,ai_usage_frequency,ai_usage_type,ai_emotional_support_perception,ai_vs_human_interaction,ai_discomfort,ai_decision_support,ai_understanding,ai_vs_human_trust,social_interaction_frequency,seeks_help_from_others,uses_ai_for_emotional_support,follows_ai_advice
+18-21,Ingeniería / STEM,2–4 horas,Varias veces al día,Estudio / tareas académicas,2,4,4,4,2,3,Rara vez,"Personas (amigos, familia)",True,True
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,1,1,2,1,1,3,Muy frecuentemente,Ambos por igual,False,True
+18-21,Otro,Menos de 1 hora,Varias veces al día,Estudio / tareas académicas,5,5,1,3,3,3,Muy frecuentemente,Ambos por igual,True,False
+22-24,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Entretenimiento,1,1,1,3,1,2,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,1–2 horas,Una vez al día,Estudio / tareas académicas,2,1,2,1,1,3,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,1–2 horas,Algunas veces a la semana,Estudio / tareas académicas,3,4,1,4,3,4,Ocasionalmente,Ambos por igual,False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,4,2,1,2,2,3,Frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ingeniería / STEM,2–4 horas,Algunas veces a la semana,Estudio / tareas académicas,3,1,2,1,1,1,Frecuentemente,"Personas (amigos, familia)",True,False
+22-24,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Varias veces al día,Estudio / tareas académicas,1,1,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Varias veces al día,Estudio / tareas académicas,2,1,3,2,1,1,Frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Una vez al día,Entretenimiento,3,3,4,2,2,4,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,1–2 horas,Algunas veces a la semana,Estudio / tareas académicas,2,1,1,1,1,1,Ocasionalmente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,4,2,3,5,4,4,Muy frecuentemente,Ambos por igual,True,True
+Menos de 18,Otro,Más de 4 horas,Varias veces al día,Apoyo emocional / personal,5,5,5,5,5,5,Rara vez,IA,True,True
+18-21,Ingeniería / STEM,Menos de 1 hora,Rara vez,Trabajo,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,3,2,3,1,2,2,Muy frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Otro,1–2 horas,Varias veces al día,Estudio / tareas académicas,2,3,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ciencias Sociales / Humanidades,Menos de 1 hora,Rara vez,Estudio / tareas académicas,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Otro,1–2 horas,Una vez al día,Trabajo,3,5,2,3,5,4,Rara vez,Ambos por igual,True,True
+18-21,Ciencias Sociales / Humanidades,1–2 horas,Algunas veces a la semana,Apoyo emocional / personal,2,3,1,2,1,1,Frecuentemente,Ambos por igual,True,False
+18-21,Negocios / Administración,Más de 4 horas,Varias veces al día,Estudio / tareas académicas,5,3,4,2,4,5,Muy frecuentemente,Ambos por igual,True,True
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,2,2,1,1,2,2,Frecuentemente,Ambos por igual,False,True
+18-21,Ciencias Sociales / Humanidades,1–2 horas,Varias veces al día,Estudio / tareas académicas,2,2,3,3,3,3,Frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ciencias Sociales / Humanidades,1–2 horas,Algunas veces a la semana,Estudio / tareas académicas,2,1,3,1,1,3,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ciencias Sociales / Humanidades,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,1,1,2,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Varias veces al día,Entretenimiento,3,2,1,3,5,5,Muy frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ciencias Sociales / Humanidades,2–4 horas,Varias veces al día,Estudio / tareas académicas,1,1,4,1,1,2,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ciencias Sociales / Humanidades,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,4,2,2,3,1,2,Frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ciencias Sociales / Humanidades,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,2,1,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,3,1,2,2,4,4,Muy frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Negocios / Administración,2–4 horas,Varias veces al día,Estudio / tareas académicas,3,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,1–2 horas,Una vez al día,Estudio / tareas académicas,2,1,3,4,3,4,Muy frecuentemente,Ambos por igual,False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Varias veces al día,Estudio / tareas académicas,4,2,2,2,4,3,Muy frecuentemente,Ambos por igual,True,True
+Menos de 18,Otro,Más de 4 horas,Rara vez,Entretenimiento,4,3,2,1,2,1,Ocasionalmente,Ambos por igual,True,False
+18-21,Ingeniería / STEM,1–2 horas,Una vez al día,Estudio / tareas académicas,3,1,2,2,2,1,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,2,1,1,2,1,2,Frecuentemente,"Personas (amigos, familia)",False,True
+18-21,Ingeniería / STEM,Menos de 1 hora,Rara vez,Estudio / tareas académicas,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Otro,2–4 horas,Varias veces al día,Estudio / tareas académicas,3,3,1,4,3,3,Muy frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,2,2,2,3,2,2,Muy frecuentemente,Ambos por igual,True,False
+18-21,Ciencias Sociales / Humanidades,1–2 horas,Varias veces al día,Estudio / tareas académicas,4,4,1,2,4,1,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,Más de 4 horas,Varias veces al día,Estudio / tareas académicas,3,2,3,3,3,4,Muy frecuentemente,Ambos por igual,True,True
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,2–4 horas,Una vez al día,Estudio / tareas académicas,4,3,3,2,2,2,Ocasionalmente,Ambos por igual,True,True
++25,Otro,1–2 horas,Una vez al día,Trabajo,2,3,1,1,1,1,Muy frecuentemente,Ambos por igual,False,False
++25,Ciencias Sociales / Humanidades,Menos de 1 hora,Varias veces al día,Apoyo emocional / personal,5,5,1,3,3,5,Muy frecuentemente,Ambos por igual,True,True
+22-24,Negocios / Administración,2–4 horas,Varias veces al día,Trabajo,1,1,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Entretenimiento,3,1,1,2,2,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
++25,Otro,1–2 horas,Varias veces al día,Apoyo emocional / personal,5,5,4,5,5,5,Muy frecuentemente,IA,True,True
+22-24,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,1,1,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,2–4 horas,Varias veces al día,Estudio / tareas académicas,3,1,2,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ingeniería / STEM,Menos de 1 hora,Varias veces al día,Estudio / tareas académicas,2,5,1,4,2,5,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ciencias Sociales / Humanidades,Más de 4 horas,Varias veces al día,Estudio / tareas académicas,1,1,1,1,2,3,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Varias veces al día,Estudio / tareas académicas,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,1,1,1,1,3,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+22-24,Otro,1–2 horas,Algunas veces a la semana,Trabajo,5,3,1,3,4,2,Frecuentemente,Ambos por igual,True,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Varias veces al día,Estudio / tareas académicas,3,2,3,3,2,2,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Otro,Menos de 1 hora,Una vez al día,Estudio / tareas académicas,1,1,1,1,1,3,Frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Otro,2–4 horas,Algunas veces a la semana,Estudio / tareas académicas,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Negocios / Administración,1–2 horas,Varias veces al día,Estudio / tareas académicas,1,1,1,1,1,1,Rara vez,"Personas (amigos, familia)",False,False
++25,Ciencias Sociales / Humanidades,Menos de 1 hora,Algunas veces a la semana,Trabajo,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",True,False
+22-24,Negocios / Administración,1–2 horas,Varias veces al día,Estudio / tareas académicas,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,3,1,3,1,3,1,Muy frecuentemente,Ambos por igual,True,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ciencias Sociales / Humanidades,Más de 4 horas,Varias veces al día,Entretenimiento,2,5,5,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Otro,Más de 4 horas,Varias veces al día,Estudio / tareas académicas,2,1,3,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Rara vez,Apoyo emocional / personal,5,5,1,5,5,5,Muy frecuentemente,IA,True,True
+22-24,Ciencias Sociales / Humanidades,Menos de 1 hora,Rara vez,Estudio / tareas académicas,1,3,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+22-24,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,3,4,1,2,2,2,Frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Otro,Menos de 1 hora,Una vez al día,Estudio / tareas académicas,1,1,2,2,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,1–2 horas,Una vez al día,Estudio / tareas académicas,2,2,1,2,2,4,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,2–4 horas,Varias veces al día,Estudio / tareas académicas,3,1,4,1,5,5,Muy frecuentemente,"Personas (amigos, familia)",True,False
+22-24,Ingeniería / STEM,1–2 horas,Una vez al día,Estudio / tareas académicas,1,1,1,1,1,2,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Una vez al día,Estudio / tareas académicas,1,1,1,1,1,2,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Otro,1–2 horas,Una vez al día,Estudio / tareas académicas,3,2,1,2,2,1,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,2,1,2,1,2,4,Frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Otro,1–2 horas,Una vez al día,Entretenimiento,1,3,3,2,2,2,Frecuentemente,Ambos por igual,True,True
+18-21,Otro,Más de 4 horas,Varias veces al día,Trabajo,2,1,3,3,3,3,Ocasionalmente,"Personas (amigos, familia)",False,False
+18-21,Ciencias Sociales / Humanidades,1–2 horas,Algunas veces a la semana,Estudio / tareas académicas,2,2,1,2,3,1,Frecuentemente,"Personas (amigos, familia)",True,False
+22-24,Otro,Menos de 1 hora,Rara vez,Estudio / tareas académicas,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Entretenimiento,2,1,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Una vez al día,Estudio / tareas académicas,1,1,2,1,1,2,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,1,1,1,2,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Negocios / Administración,Más de 4 horas,Varias veces al día,Trabajo,4,3,3,3,5,3,Ocasionalmente,Ambos por igual,True,True
+22-24,Negocios / Administración,Menos de 1 hora,Una vez al día,Trabajo,1,1,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",False,False
++25,Negocios / Administración,Menos de 1 hora,Algunas veces a la semana,Trabajo,1,1,3,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Negocios / Administración,Más de 4 horas,Varias veces al día,Apoyo emocional / personal,5,5,5,4,4,3,Frecuentemente,IA,True,True
+Menos de 18,Otro,Menos de 1 hora,Varias veces al día,Estudio / tareas académicas,5,3,1,4,5,5,Muy frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Apoyo emocional / personal,4,4,4,5,4,4,Frecuentemente,Ambos por igual,True,False
+22-24,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,1,1,1,1,1,3,Frecuentemente,"Personas (amigos, familia)",False,False
+Menos de 18,Otro,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,1,1,1,1,1,2,Ocasionalmente,"Personas (amigos, familia)",False,False
+18-21,Otro,Menos de 1 hora,Algunas veces a la semana,Entretenimiento,2,1,1,2,2,1,Frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Una vez al día,Apoyo emocional / personal,2,5,3,1,4,4,Ocasionalmente,IA,True,True
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,2,1,1,2,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ciencias Sociales / Humanidades,Más de 4 horas,Varias veces al día,Estudio / tareas académicas,5,1,5,4,3,4,Muy frecuentemente,Ambos por igual,True,True
+18-21,Otro,Más de 4 horas,Varias veces al día,Trabajo,2,2,1,2,1,1,Ocasionalmente,"Personas (amigos, familia)",False,False
+18-21,Negocios / Administración,2–4 horas,Varias veces al día,Estudio / tareas académicas,3,2,3,3,2,2,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Otro,Menos de 1 hora,Una vez al día,Estudio / tareas académicas,1,1,1,1,1,1,Ocasionalmente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,1–2 horas,Una vez al día,Estudio / tareas académicas,1,1,1,5,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,2–4 horas,Varias veces al día,Apoyo emocional / personal,4,3,4,5,4,5,Frecuentemente,IA,True,True
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,2,2,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,2–4 horas,Varias veces al día,Estudio / tareas académicas,5,3,3,4,4,4,Ocasionalmente,IA,True,True
+18-21,Ingeniería / STEM,1–2 horas,Una vez al día,Estudio / tareas académicas,3,2,3,4,4,2,Frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,3,2,4,4,4,4,Frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ingeniería / STEM,1–2 horas,Algunas veces a la semana,Estudio / tareas académicas,3,3,2,2,3,3,Frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ingeniería / STEM,2–4 horas,Varias veces al día,Estudio / tareas académicas,4,1,4,3,1,2,Frecuentemente,Ambos por igual,True,False
+18-21,Ingeniería / STEM,2–4 horas,Varias veces al día,Estudio / tareas académicas,3,1,3,2,2,1,Rara vez,Ambos por igual,True,True
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,1,4,3,2,4,4,Muy frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,4,5,2,2,3,4,Ocasionalmente,Ambos por igual,True,False
++25,Ciencias Sociales / Humanidades,Menos de 1 hora,Algunas veces a la semana,Entretenimiento,3,3,3,1,3,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,1,1,2,4,2,5,Rara vez,Ambos por igual,False,True
++25,Ciencias Sociales / Humanidades,Menos de 1 hora,Una vez al día,Estudio / tareas académicas,1,1,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ciencias Sociales / Humanidades,Menos de 1 hora,Varias veces al día,Apoyo emocional / personal,3,1,1,1,2,2,Muy frecuentemente,Ambos por igual,True,True
++25,Ciencias Sociales / Humanidades,Menos de 1 hora,Rara vez,Entretenimiento,1,1,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",False,False
++25,Ciencias Sociales / Humanidades,2–4 horas,Varias veces al día,Estudio / tareas académicas,1,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,2–4 horas,Varias veces al día,Estudio / tareas académicas,1,1,5,4,3,3,Rara vez,Ambos por igual,False,True
+22-24,Ciencias Sociales / Humanidades,1–2 horas,Una vez al día,Estudio / tareas académicas,4,4,3,2,3,3,Ocasionalmente,IA,True,False
+18-21,Ciencias Sociales / Humanidades,Menos de 1 hora,Rara vez,Estudio / tareas académicas,1,1,1,1,1,1,Ocasionalmente,"Personas (amigos, familia)",False,False
+22-24,Ciencias Sociales / Humanidades,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,3,1,3,2,3,3,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,1–2 horas,Algunas veces a la semana,Estudio / tareas académicas,2,1,2,1,3,2,Frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,1–2 horas,Algunas veces a la semana,Entretenimiento,2,2,2,1,3,2,Frecuentemente,"Personas (amigos, familia)",False,True
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,3,3,2,2,2,3,Muy frecuentemente,Ambos por igual,True,False
+18-21,Ingeniería / STEM,2–4 horas,Varias veces al día,Estudio / tareas académicas,2,2,3,2,3,2,Frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Varias veces al día,Estudio / tareas académicas,1,1,2,2,1,2,Muy frecuentemente,"Personas (amigos, familia)",False,True
+18-21,Ingeniería / STEM,1–2 horas,Algunas veces a la semana,Estudio / tareas académicas,2,1,1,1,2,1,Frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,1,1,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,1–2 horas,Una vez al día,Estudio / tareas académicas,1,1,2,1,1,1,Ocasionalmente,"Personas (amigos, familia)",False,True
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,1,1,2,1,1,3,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,2,1,1,1,1,1,Muy frecuentemente,"Personas (amigos, familia)",False,False
+22-24,Ingeniería / STEM,1–2 horas,Una vez al día,Estudio / tareas académicas,2,1,1,1,2,1,Frecuentemente,"Personas (amigos, familia)",True,False
++25,Ingeniería / STEM,1–2 horas,Varias veces al día,Trabajo,1,1,2,3,2,5,Muy frecuentemente,Ambos por igual,False,True
+18-21,Ingeniería / STEM,Menos de 1 hora,Una vez al día,Estudio / tareas académicas,1,4,3,2,1,1,Muy frecuentemente,"Personas (amigos, familia)",True,False
+18-21,Otro,Menos de 1 hora,Algunas veces a la semana,Estudio / tareas académicas,3,2,2,2,1,3,Frecuentemente,Ambos por igual,False,False
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,4,2,1,3,3,4,Muy frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ingeniería / STEM,Más de 4 horas,Varias veces al día,Estudio / tareas académicas,4,4,1,3,5,4,Ocasionalmente,Ambos por igual,True,True
+18-21,Ingeniería / STEM,Menos de 1 hora,Rara vez,Estudio / tareas académicas,4,3,5,4,5,5,Muy frecuentemente,"Personas (amigos, familia)",True,True
+18-21,Ingeniería / STEM,Menos de 1 hora,Rara vez,Estudio / tareas académicas,1,1,1,3,1,3,Muy frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Una vez al día,Estudio / tareas académicas,1,1,1,1,1,1,Ocasionalmente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,Menos de 1 hora,Una vez al día,Estudio / tareas académicas,1,1,1,1,1,1,Frecuentemente,"Personas (amigos, familia)",False,False
+18-21,Ingeniería / STEM,1–2 horas,Varias veces al día,Estudio / tareas académicas,2,2,1,1,1,4,Frecuentemente,"Personas (amigos, familia)",False,False
