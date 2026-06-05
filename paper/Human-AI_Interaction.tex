@@ -76,26 +76,77 @@
 \pagebreak
 
 \begin{abstract}
-...
-\end{abstract}
 
+This study explores behavioral and emotional dependency toward artificial intelligence systems using a combination of psychometric measurement, statistical inference, and probabilistic machine learning.
+
+Data were collected from 140 university students aged 18 to 24 across different academic institutions, including both urban and semi-rural contexts. The questionnaire consisted of 15 items, including Likert-scale questions measuring dependency-related behaviors and categorical variables describing usage patterns and social interaction.
+
+A dependency score was constructed from six Likert-scale items and analyzed as both a continuous and categorical variable. Statistical analysis revealed a significant difference in dependency levels between high and low AI usage groups, while social interaction showed weaker evidence of association.
+
+A Categorical Naive Bayes classifier was trained to predict dependency levels based on behavioral features, achieving moderate performance with an accuracy of 0.86. However, the model's performance was affected by class imbalance and overlapping class definitions, particularly in the medium dependency category.
+
+Overall, the results suggest that AI usage frequency is a stronger predictor of dependency than social interaction within this dataset. This work highlights the potential of combining statistical methods and machine learning to analyze human-AI behavioral patterns while acknowledging the limitations of survey-based and imbalanced data.
+
+\end{abstract}
 \section{{\color{colorIPN}{Introduction}}}
 
 \section{{\color{colorIPN}{Literature Review}}}
 
 \section{{\color{colorIPN}{Research Method}}}
-Data was collected through a questionnaire designed to evaluate behavioral and emotional dependency toward artificial intelligence systems.
+Data was collected through a structured questionnaire designed to evaluate behavioral and emotional dependency toward artificial intelligence systems. The questionnaire was administered to a sample of 140 university students between 18 and 24 years old. Participants were recruited from different academic institutions, including students from urban universities as well as a subset from semi-rural areas. This sampling diversity may have influenced the observed distribution of AI usage and dependency levels, potentially contributing to a higher proportion of low-usage and low-dependency responses.
 
-A dependency score was constructed using multiple Likert-scale questions related to emotional reliance, trust, and behavioral attachment. Internal consistency was evaluated using Cronbach's alpha.
+The instrument consisted of 15 questions in total. Six of these items were measured using a 5-point Likert scale and were specifically designed to assess emotional reliance, trust, and behavioral attachment toward artificial intelligence systems. The remaining items were categorical in nature and captured demographic, behavioral, and usage-related characteristics.
 
-To evaluate differences in dependency levels between high and low AI usage groups, an independent samples t-test was conducted.
+To ensure the reliability of the measurement instrument, internal consistency was evaluated using Cronbach's alpha. The coefficient was computed as:
 
-Additionally, a chi-square test of independence was used to examine the relationship between social interaction frequency and dependency level.
+\[
+\alpha =
+\frac{k}{k-1}
+\left(
+1 - \frac{\sum_{i=1}^{k} \sigma_i^2}{\sigma_T^2}
+\right)
+\]
+
+where $k$ is the number of items, $\sigma_i^2$ is the variance of each item, and $\sigma_T^2$ is the variance of the total score.
+
+The obtained value of Cronbach's alpha was:
+
+\[
+\alpha = 0.869
+\]
+
+indicating good internal consistency of the questionnaire.
+
+A dependency score was constructed by averaging the responses of the six Likert-scale items. This score was treated both as a continuous variable for statistical analysis and as a categorical variable by discretizing it into three levels: low, medium, and high dependency.
+\subsection{Confidence Interval for the Mean Dependency Score}
+
+To estimate the population mean of the dependency score, a 95\% confidence interval was computed using the t-distribution:
+
+\[
+\bar{x} \pm t_{\alpha/2} \cdot \frac{s}{\sqrt{n}}
+\]
+
+where:
+\begin{itemize}
+    \item $\bar{x}$ is the sample mean
+    \item $s$ is the sample standard deviation
+    \item $n$ is the sample size
+    \item $t_{\alpha/2}$ is the critical t-value for $n-1$ degrees of freedom
+\end{itemize}
+
+The resulting confidence interval for the mean dependency score was:
+
+\[
+CI_{95\%} = [\text{1.92}, \text{2.26}]
+\]
+
+This interval provides an estimate of the range in which the true population mean dependency level is expected to lie.
+
 \subsection{Independent Samples t-Test}
 
 To evaluate whether high AI usage is associated with higher dependency levels, an independent samples t-test was conducted comparing the mean dependency scores between high-usage and low-usage users.
 
-The null and alternative hypotheses were defined as follows:
+The null and alternative hypotheses were defined as:
 
 \[
 H_0: \mu_1 = \mu_2
@@ -105,15 +156,11 @@ H_0: \mu_1 = \mu_2
 H_1: \mu_1 > \mu_2
 \]
 
-where:
-\begin{itemize}
-    \item $\mu_1$ represents the mean dependency score of high-usage users
-    \item $\mu_2$ represents the mean dependency score of low-usage users
-\end{itemize}
+where $\mu_1$ represents the mean dependency score of high-usage users and $\mu_2$ represents the mean dependency score of low-usage users.
 
-Under the null hypothesis, the difference between sample means is expected to be close to zero. According to the Central Limit Theorem, the sampling distribution of the difference of means approximately follows a normal distribution for sufficiently large sample sizes.
+Under the null hypothesis, the difference between sample means is expected to be zero. By the Central Limit Theorem, the sampling distribution of the difference of means approximates normality for sufficiently large sample sizes.
 
-The test statistic was computed using Welch's t-test:
+The test statistic was computed using Welch’s t-test:
 
 \[
 t =
@@ -133,32 +180,138 @@ where:
     \item $n_1$ and $n_2$ are the sample sizes
 \end{itemize}
 
-The sample variance for each group was estimated using:
-
-\[
-s^2 =
-\frac{1}{n-1}
-\sum_{i=1}^{n}
-(x_i - \bar{x})^2
-\]
-
 The resulting p-value obtained from the test was:
 
 \[
 p = 0.003
 \]
 
-Using a significance level of $\alpha = 0.05$, the null hypothesis was rejected since:
+Using a significance level of $\alpha = 0.05$, the null hypothesis was rejected, indicating statistically significant evidence that high-usage users exhibit higher dependency scores.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{t_test_distribution.png}
+    \caption{Distribution of dependency scores between low and high AI usage groups}
+\end{figure}
+
+\subsection{Chi-Squared Test of Independence}
+
+To examine the relationship between social interaction frequency and dependency level, a chi-squared test of independence was performed.
+
+The hypotheses were defined as:
 
 \[
-p < \alpha
+H_0: \text{Social Interaction and AI Dependency are independent}
 \]
 
-This result provides statistically significant evidence that high-usage users exhibit greater dependency scores than low-usage users.
+\[
+H_1: \text{Social Interaction and AI Dependency are associated}
+\]
+
+The chi-squared statistic is defined as:
+
+\[
+\chi^2 = \sum \frac{(O - E)^2}{E}
+\]
+
+where $O$ represents observed frequencies and $E$ represents expected frequencies under independence.
+
+The test yielded a p-value of:
+
+\[
+p = 0.053
+\]
+
+At a significance level of $\alpha = 0.05$, we fail to reject the null hypothesis; however, the result suggests a weak association between social interaction frequency and AI dependency, indicating a potential relationship that may require further investigation with a larger sample size.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{chi_square_heatmap.png}
+    \caption{Observed frequency distribution between social interaction and AI dependency}
+\end{figure}
+
+\subsection{Naive Bayes Model}
+
+To model the relationship between behavioral features and AI dependency levels, a Naive Bayes classifier was employed. This model is grounded in Bayes' theorem, which describes the conditional probability of a class given observed features.
+
+\[
+P(Y \mid X) = \frac{P(X \mid Y)\,P(Y)}{P(X)}
+\]
+
+where:
+\begin{itemize}
+    \item $Y$ represents the dependency class (low, medium, high)
+    \item $X$ represents the observed feature vector
+\end{itemize}
+In this context, the model estimates the probability of a given dependency level based on behavioral and social features such as AI usage frequency, social interaction, and preference for AI-based advice.
+The Naive Bayes classifier assumes conditional independence between features given the class label. This simplifies the joint likelihood as:
+
+\[
+P(X \mid Y) = \prod_{i=1}^{n} P(x_i \mid Y)
+\]
+
+where each feature $x_i$ is assumed to contribute independently to the probability of the class $Y$.
+Although this assumption is rarely strictly true in real-world behavioral data, it provides a computationally efficient and surprisingly effective approximation for classification problems.
+The final classification is obtained by selecting the class with the highest posterior probability:
+
+\[
+\hat{Y} = \arg\max_Y \; P(Y) \prod_{i=1}^{n} P(x_i \mid Y)
+\]
+In this study, the feature vector $X$ consists of encoded behavioral variables including AI usage frequency, social interaction level, emotional support from AI, and preference for AI-based advice. All features were discretized to enable the use of a categorical Naive Bayes classifier.
+The Naive Bayes model provides a probabilistic framework to classify individuals into dependency levels based on observed behavioral patterns. Rather than modeling causal relationships, it captures statistical associations between features and dependency categories.
+
 \section{{\color{colorIPN}{Results and Discussion}}}
+The analysis combines statistical inference and probabilistic classification to study behavioral patterns related to AI dependency. A dependency score was constructed from the average of six Likert-scale items and treated both as a continuous variable for statistical testing and as a categorical variable for classification purposes.
 
+To evaluate differences in dependency levels between usage groups, an independent samples t-test was conducted. The results showed a statistically significant difference in mean dependency scores between high-usage and low-usage users (p = 0.003), suggesting that increased AI usage is associated with higher dependency levels.
+
+In contrast, the chi-squared test of independence between social interaction frequency and dependency level produced a marginal result (p = 0.053). Although not statistically significant at the 0.05 level, the observed distribution suggests a weak association that may become clearer with a larger sample size. Overall, these results indicate that AI usage is a stronger predictor of dependency than social interaction patterns within this dataset.
+
+A Categorical Naive Bayes classifier was then trained to predict dependency levels based on behavioral and demographic features. The model achieved moderate performance, with stronger predictive ability for the low dependency class compared to medium and high levels. This behavior is also reflected in the confusion matrix, which shows a tendency to classify observations as low dependency more frequently. This pattern is consistent with the underlying class distribution and the ambiguity of the medium category, rather than being solely a model limitation.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{confusion_matrix.png}
+    \caption{Confusion Matrix}
+\end{figure}
+
+
+The performance of the classifier is summarized in the table below:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c|c|c|c}
+Class & Precision & Recall & F1-score & Support \\
+\hline
+0 (Low)    & 0.88 & 0.95 & 0.91 & 22 \\
+1 (Medium) & 0.67 & 0.40 & 0.50 & 5 \\
+2 (High)   & 1.00 & 1.00 & 1.00 & 1 \\
+\hline
+Accuracy & \multicolumn{4}{c}{0.86} \\
+Macro Avg & 0.85 & 0.78 & 0.80 & 28 \\
+Weighted Avg & 0.84 & 0.86 & 0.84 & 28 \\
+\end{tabular}
+\caption{Performance metrics of the Naive Bayes classifier}
+\end{table}
+
+Overall, the model achieved an accuracy of 0.86, indicating good general performance in classifying dependency levels. However, performance varies across classes. The model performs best for low dependency cases, while medium dependency cases are often misclassified as low, indicating lower recall for this category. The high dependency class shows perfect scores, although this is not statistically reliable due to the extremely small number of samples.
+
+The difference between macro and weighted averages further highlights the presence of class imbalance, with the model being biased toward the majority class (low dependency).
+
+Finally, the results suggest that while AI usage frequency is significantly associated with dependency levels, social interaction shows only weak evidence of association. The Naive Bayes model confirms that behavioral features contain predictive signal, but also reflects limitations introduced by class imbalance and overlapping behavioral patterns.
+
+Additionally, the sampling context, which includes both urban and semi-rural participants, may have influenced the distribution of responses, potentially contributing to a higher proportion of low usage and low dependency observations.
+
+Overall, this study highlights both the potential and limitations of combining statistical inference and machine learning techniques to analyze human-AI behavioral dependency.
 \section{{\color{colorIPN}{Conclusion}}}
+This study investigated behavioral and emotional dependency toward artificial intelligence using statistical analysis and machine learning techniques.
 
+The results provide evidence that AI usage is a key factor associated with dependency levels, while social interaction shows weaker and less conclusive evidence of association. 
+
+The Naive Bayes model further supports the existence of predictive patterns in behavioral data, although its performance is influenced by class imbalance and overlapping class structures, particularly in the medium dependency category.
+
+Overall, the findings highlight that AI usage plays a more relevant role than social interaction in explaining dependency patterns within this dataset.
+
+This study demonstrates the value of combining statistical inference and probabilistic modeling to analyze human-AI behavioral relationships, while also emphasizing the limitations of survey-based and imbalanced data.
 \end{document}
 
 

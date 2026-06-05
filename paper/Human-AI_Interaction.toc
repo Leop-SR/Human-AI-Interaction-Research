@@ -1,6 +1,9 @@
 \contentsline {section}{\numberline {1}{\color {colorIPN}{Introduction}}}{2}{}%
 \contentsline {section}{\numberline {2}{\color {colorIPN}{Literature Review}}}{2}{}%
 \contentsline {section}{\numberline {3}{\color {colorIPN}{Research Method}}}{2}{}%
-\contentsline {subsection}{\numberline {3.1}Independent Samples t-Test}{2}{}%
-\contentsline {section}{\numberline {4}{\color {colorIPN}{Results and Discussion}}}{3}{}%
-\contentsline {section}{\numberline {5}{\color {colorIPN}{Conclusion}}}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Confidence Interval for the Mean Dependency Score}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Independent Samples t-Test}{3}{}%
+\contentsline {subsection}{\numberline {3.3}Chi-Squared Test of Independence}{4}{}%
+\contentsline {subsection}{\numberline {3.4}Naive Bayes Model}{4}{}%
+\contentsline {section}{\numberline {4}{\color {colorIPN}{Results and Discussion}}}{5}{}%
+\contentsline {section}{\numberline {5}{\color {colorIPN}{Conclusion}}}{7}{}%
