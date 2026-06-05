@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1780629405.13459 "c:/Users/sanru/Documents/ESCOM/Cuarto_sem/probability/paper/Human-AI_Interaction.tex" "Human-AI_Interaction.pdf" "Human-AI_Interaction" 1780629405.82333 0
+["pdflatex"] 1780666415.84501 "c:/Users/sanru/Documents/ESCOM/Cuarto_sem/probability/paper/Human-AI_Interaction.tex" "Human-AI_Interaction.pdf" "Human-AI_Interaction" 1780666416.76518 0
   "C:/Users/sanru/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1780603443 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/sanru/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk" 1779286348 22504 ec4d020d137493aa602961040dafae12 ""
   "C:/Users/sanru/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1771343076 25420 8c96836d636a4edaabc0fa7ad5913d8b ""
@@ -96,15 +96,15 @@
   "C:/Users/sanru/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1761901070 16014 dfa4b4d4e04a78a3f05a90c19711737a ""
   "C:/Users/sanru/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1761901070 33142 efe8f4750fc02524935e7423b4bdef69 ""
   "C:/Users/sanru/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Human-AI_Interaction.aux" 1780629405 1777 f24670a823bf7bc2e4b05b7f165f0e13 "pdflatex"
-  "Human-AI_Interaction.lof" 1780629405 348 f7f38601e6d8dd3f68446cb264f5a873 "pdflatex"
-  "Human-AI_Interaction.lot" 1780629405 110 25d5771f2bdf81481a3c1cb1dba2e1df "pdflatex"
+  "Human-AI_Interaction.aux" 1780666416 1777 f24670a823bf7bc2e4b05b7f165f0e13 "pdflatex"
+  "Human-AI_Interaction.lof" 1780666416 348 f7f38601e6d8dd3f68446cb264f5a873 "pdflatex"
+  "Human-AI_Interaction.lot" 1780666416 110 25d5771f2bdf81481a3c1cb1dba2e1df "pdflatex"
   "Human-AI_Interaction.tex" 1780629404 15948 fc8ab8d9ca378d08863f1c0a3d88d739 ""
-  "Human-AI_Interaction.toc" 1780629405 748 575931c15e3cc73ac480781b9df434bc "pdflatex"
+  "Human-AI_Interaction.toc" 1780666416 748 575931c15e3cc73ac480781b9df434bc "pdflatex"
   "c:/Users/sanru/Documents/ESCOM/Cuarto_sem/probability/paper/Human-AI_Interaction.tex" 1780629404 15948 fc8ab8d9ca378d08863f1c0a3d88d739 ""
   "chi_square_heatmap.png" 1780627298 30366 2a198687af09c86a3368238a73263930 ""
   "confusion_matrix.png" 1780628889 19760 55b7d341b3e858eb7e87b2fb1d1103cd ""
-  "t_test_distribution.png" 1780627230 50485 8c690bed1dc7fa9dd39b08fa4e46b2f7 ""
+  "t_test_distribution.png" 1780666415 50056 a9a234c3e9146720888553f5a2bd8364 ""
   (generated)
   "Human-AI_Interaction.aux"
   "Human-AI_Interaction.lof"
