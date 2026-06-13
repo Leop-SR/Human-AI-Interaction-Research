@@ -165,6 +165,13 @@ OUTPUT Human-AI_Interaction.lot
 INPUT C:\Users\sanru\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0900.tfm
 INPUT C:\Users\sanru\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx0900.tfm
 INPUT C:\Users\sanru\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
+INPUT .\dependency_histogram.png
+INPUT .\dependency_histogram.png
+INPUT .\dependency_histogram.png
+INPUT .\dependency_histogram.png
+INPUT .\dependency_histogram.png
+INPUT .\dependency_histogram.png
+INPUT .\dependency_histogram.png
 INPUT C:\Users\sanru\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\sanru\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0700.tfm
 INPUT C:\Users\sanru\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0500.tfm
@@ -189,7 +196,10 @@ INPUT .\confusion_matrix.png
 INPUT .\confusion_matrix.png
 INPUT .\confusion_matrix.png
 INPUT .\confusion_matrix.png
+INPUT C:\Users\sanru\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
 INPUT Human-AI_Interaction.aux
+INPUT C:\Users\sanru\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\sanru\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
 INPUT C:\Users\sanru\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\sanru\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\sanru\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk

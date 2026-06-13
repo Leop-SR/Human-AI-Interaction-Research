@@ -77,25 +77,67 @@
 
 \begin{abstract}
 
-This study explores behavioral and emotional dependency toward artificial intelligence systems using a combination of psychometric measurement, statistical inference, and probabilistic machine learning.
+The rapid adoption of conversational artificial intelligence has transformed chatbots from productivity tools into social companions capable of providing emotional support, advice, and personalized interaction. As these systems become increasingly integrated into daily life, concerns have emerged regarding the development of emotional attachment and dependency toward AI.
 
-Data were collected from 140 university students aged 18 to 24 across different academic institutions, including both urban and semi-rural contexts. The questionnaire consisted of 15 items, including Likert-scale questions measuring dependency-related behaviors and categorical variables describing usage patterns and social interaction.
+This study investigates behavioral and emotional dependency toward artificial intelligence among university students using a combination of psychometric validation, statistical inference, and probabilistic machine learning. Data were collected through a questionnaire administered to predominantly university students between 18 and 24 years old. from different academic institutions and social contexts. A dependency score was constructed from six Likert-scale items and analyzed both as a continuous and categorical variable.
 
-A dependency score was constructed from six Likert-scale items and analyzed as both a continuous and categorical variable. Statistical analysis revealed a significant difference in dependency levels between high and low AI usage groups, while social interaction showed weaker evidence of association.
+The results indicate that students with higher levels of AI usage exhibit significantly greater dependency scores than low-usage users. In contrast, social interaction frequency showed only weak evidence of association with dependency levels. A Categorical Naive Bayes classifier was trained to predict dependency categories from behavioral characteristics, achieving an overall accuracy of 0.86.
 
-A Categorical Naive Bayes classifier was trained to predict dependency levels based on behavioral features, achieving moderate performance with an accuracy of 0.86. However, the model's performance was affected by class imbalance and overlapping class definitions, particularly in the medium dependency category.
-
-Overall, the results suggest that AI usage frequency is a stronger predictor of dependency than social interaction within this dataset. This work highlights the potential of combining statistical methods and machine learning to analyze human-AI behavioral patterns while acknowledging the limitations of survey-based and imbalanced data.
+These findings suggest that frequency of AI use is a stronger indicator of dependency than social interaction patterns within the studied population. More broadly, the study demonstrates how statistical methods and machine learning can be combined to investigate emerging forms of human-AI relationships and their potential social implications.
 
 \end{abstract}
+
 \section{{\color{colorIPN}{Introduction}}}
 
+Artificial intelligence has become one of the most influential technologies of the last decade, transforming the way individuals communicate, learn, work, and seek information. The emergence of large language models and conversational agents such as ChatGPT, Replika, and Character.ai has expanded the role of AI beyond traditional computational tasks, enabling interactions that increasingly resemble human conversation and social engagement. As a result, users are beginning to form emotional connections with AI systems, sometimes describing these interactions in terms traditionally associated with friendship, companionship, or even romantic attachment \cite{ref1}.
+
+The growing popularity of AI companions reflects a broader shift in the way technology is used in everyday life. Recent reports indicate that emotional support and companionship have become among the most common motivations for interacting with generative AI systems \cite{ref4}. In addition, researchers have highlighted the potential of AI-driven conversational agents to support mental health interventions, improve accessibility to psychological assistance, and provide continuous emotional support \cite{ref5}. These applications suggest that AI may increasingly occupy roles traditionally fulfilled by human relationships and professional support networks.
+
+Despite these potential benefits, the rise of emotionally engaging AI systems has generated significant ethical and psychological concerns. Several highly publicized cases involving harmful interactions with chatbots have raised questions about the responsibilities of AI developers and the potential consequences of prolonged emotional reliance on artificial companions \cite{ref2,ref3}. Concerns regarding emotional dependency, social isolation, trust, and the substitution of human relationships have become increasingly relevant as these technologies continue to evolve.
+
+Although previous studies have explored emotional attachment to AI, mental health applications, and ethical implications, relatively little research has quantitatively examined dependency toward AI among university students. Understanding the factors associated with AI dependency is particularly important for younger populations, who represent some of the most active users of conversational AI systems.
+
+Therefore, this study investigates behavioral and emotional dependency toward artificial intelligence among university students through survey-based statistical analysis and machine learning techniques. Specifically, the research evaluates whether AI usage patterns and social interaction behaviors are associated with dependency levels and explores the predictive value of these behavioral characteristics using a Categorical Naive Bayes classifier.
+\pagebreak
 \section{{\color{colorIPN}{Literature Review}}}
 
+\subsection{AI as Social and Emotional Companions}
+
+Recent developments in generative artificial intelligence have enabled conversational agents to function as social companions capable of providing emotional support and maintaining long-term interactions with users. Research has shown that individuals frequently attribute human-like characteristics to AI systems, forming emotional bonds that resemble friendship or romantic attachment \cite{ref1}. These interactions blur the distinction between human and machine relationships, creating new forms of social engagement mediated by artificial intelligence.
+
+The increasing prevalence of AI companionship is reflected in user behavior. Recent reports indicate that companionship and emotional connection are among the primary motivations for using large language models, highlighting a shift from purely functional applications toward emotionally meaningful interactions \cite{ref4}. This trend suggests that AI systems are increasingly occupying social roles traditionally fulfilled by other humans.
+
+\subsection{Artificial Intelligence in Mental Health Support}
+
+Artificial intelligence has also gained attention within psychology and psychotherapy. Researchers have explored the use of AI-driven systems to improve access to mental health resources, provide continuous support, and assist in the diagnosis and treatment of psychological disorders \cite{ref5}. Studies have reported positive outcomes in the use of conversational agents for reducing symptoms of anxiety and depression while improving emotional well-being.
+
+These findings suggest that AI-based systems may serve as accessible support tools, particularly for individuals who face barriers to traditional mental health services. However, the increasing reliance on AI for emotional support raises questions regarding the long-term consequences of substituting human interaction with machine-mediated relationships.
+
+\subsection{Risks and Ethical Concerns of Human-AI Relationships}
+
+Alongside the potential benefits of AI companionship, researchers have identified several ethical and psychological concerns. The ability of conversational agents to simulate empathy and emotional understanding may encourage users to develop strong attachments to systems that lack genuine emotions or intentions \cite{ref1}. This ambiguity can create uncertainty regarding trust, authenticity, and the nature of the relationship itself.
+
+Several highly publicized incidents have intensified concerns about the impact of AI companions on vulnerable users. These cases have sparked debates regarding the responsibilities of AI developers and the need for safeguards that prevent harmful interactions \cite{ref2,ref3}. Consequently, understanding the conditions under which dependency may emerge has become an increasingly important area of research.
+
+\subsection{Research Gap}
+
+Although previous studies have explored emotional attachment, mental health applications, and ethical concerns surrounding AI companions, limited research has quantitatively examined how AI usage behavior and social interaction patterns relate to dependency levels among university students. Most existing work focuses on conceptual, clinical, or ethical perspectives rather than statistical analysis of behavioral data.
+
+This study seeks to address this gap by combining survey-based measurement, statistical hypothesis testing, and probabilistic machine learning techniques to investigate factors associated with AI dependency and to evaluate the predictive value of behavioral characteristics.
+
+\pagebreak
+
 \section{{\color{colorIPN}{Research Method}}}
-Data was collected through a structured questionnaire designed to evaluate behavioral and emotional dependency toward artificial intelligence systems. The questionnaire was administered to a sample of 140 university students between 18 and 24 years old. Participants were recruited from different academic institutions, including students from urban universities as well as a subset from semi-rural areas. This sampling diversity may have influenced the observed distribution of AI usage and dependency levels, potentially contributing to a higher proportion of low-usage and low-dependency responses.
+Data was collected through a structured questionnaire designed to evaluate behavioral and emotional dependency toward artificial intelligence systems. The survey collected 140 responses, primarily from university students. Most participants (78.7\%) were between 18 and 21 years old, while smaller proportions belonged to the 22--24, over-25, and under-18 age groups. Participants were recruited from different academic institutions, including students from urban universities as well as a subset from semi-rural areas. This sampling diversity may have influenced the observed distribution of AI usage and dependency levels, potentially contributing to a higher proportion of low-usage and low-dependency responses.
 
 The instrument consisted of 15 questions in total. Six of these items were measured using a 5-point Likert scale and were specifically designed to assess emotional reliance, trust, and behavioral attachment toward artificial intelligence systems. The remaining items were categorical in nature and captured demographic, behavioral, and usage-related characteristics.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{dependency_histogram.png}
+    \caption{Distribution of dependency score of sample}
+\end{figure}
+
 
 To ensure the reliability of the measurement instrument, internal consistency was evaluated using Cronbach's alpha. The coefficient was computed as:
 
@@ -118,6 +160,7 @@ The obtained value of Cronbach's alpha was:
 indicating good internal consistency of the questionnaire.
 
 A dependency score was constructed by averaging the responses of the six Likert-scale items. This score was treated both as a continuous variable for statistical analysis and as a categorical variable by discretizing it into three levels: low, medium, and high dependency.
+\pagebreak
 \subsection{Confidence Interval for the Mean Dependency Score}
 
 To estimate the population mean of the dependency score, a 95\% confidence interval was computed using the t-distribution:
@@ -293,7 +336,7 @@ Weighted Avg & 0.84 & 0.86 & 0.84 & 28 \\
 \caption{Performance metrics of the Naive Bayes classifier}
 \end{table}
 
-Overall, the model achieved an accuracy of 0.86, indicating good general performance in classifying dependency levels. However, performance varies across classes. The model performs best for low dependency cases, while medium dependency cases are often misclassified as low, indicating lower recall for this category. The high dependency class shows perfect scores, although this is not statistically reliable due to the extremely small number of samples.
+Overall, the model achieved an accuracy of 0.86 (The classifier correctly identified 24 out of 28 test observations), indicating good general performance in classifying dependency levels. However, performance varies across classes. The model performs best for low dependency cases, while medium dependency cases are often misclassified as low, indicating lower recall for this category. The high dependency class shows perfect scores, although this is not statistically reliable due to the extremely small number of samples.
 
 The difference between macro and weighted averages further highlights the presence of class imbalance, with the model being biased toward the majority class (low dependency).
 
@@ -303,25 +346,35 @@ Additionally, the sampling context, which includes both urban and semi-rural par
 
 Overall, this study highlights both the potential and limitations of combining statistical inference and machine learning techniques to analyze human-AI behavioral dependency.
 \section{{\color{colorIPN}{Conclusion}}}
-This study investigated behavioral and emotional dependency toward artificial intelligence using statistical analysis and machine learning techniques.
 
-The results provide evidence that AI usage is a key factor associated with dependency levels, while social interaction shows weaker and less conclusive evidence of association. 
+This study examined behavioral and emotional dependency toward artificial intelligence among university students through a combination of psychometric validation, statistical inference, and probabilistic machine learning. By constructing a dependency score from multiple Likert-scale items, the research provided a quantitative framework for analyzing human-AI attachment and usage patterns.
 
-The Naive Bayes model further supports the existence of predictive patterns in behavioral data, although its performance is influenced by class imbalance and overlapping class structures, particularly in the medium dependency category.
+The findings indicate that AI usage frequency is significantly associated with higher dependency levels, suggesting that prolonged interaction with conversational AI systems may contribute to stronger emotional or behavioral reliance. In contrast, social interaction frequency showed only limited evidence of association with dependency, indicating that AI usage behavior may be a more relevant factor than offline social activity within the studied population.
 
-Overall, the findings highlight that AI usage plays a more relevant role than social interaction in explaining dependency patterns within this dataset.
+The Categorical Naive Bayes classifier further demonstrated that behavioral characteristics contain predictive information regarding dependency levels. Although the model achieved good overall accuracy, its performance was affected by class imbalance and overlap between categories, highlighting the challenges of modeling complex human behaviors using survey-based data.
 
-This study demonstrates the value of combining statistical inference and probabilistic modeling to analyze human-AI behavioral relationships, while also emphasizing the limitations of survey-based and imbalanced data.
-\end{document}
+Taken together, these results contribute to the growing body of research on human-AI relationships by providing empirical evidence of the connection between AI usage and dependency. As conversational AI systems continue to become integrated into education, work, and personal life, understanding the factors that influence emotional attachment and reliance on these technologies will become increasingly important.
 
+Future research should consider larger and more diverse populations, longitudinal data collection, and additional psychological variables to better understand how dependency toward AI develops over time and how it may influence social behavior, well-being, and interpersonal relationships.
+\pagebreak
+\begin{thebibliography}{99}
 
-\color{colorIPN}{
-	\begin{flushright}
-		\textit{
-			Sánchez Ruiz Leonardo
-		}
-	\end{flushright} \hfill \break
-}
+\bibitem{ref1}
+R. Zhang and L. Xie, ``The Fragility of AI Companionship: Ontological, Structural, and Normative Uncertainty in Human-AI Relationships,'' \textit{arXiv preprint arXiv:2605.03367}, 2026.
+
+\bibitem{ref2}
+C. Voinea, C. Register, S. P. Mann, J. Savulescu, and B. D. Earp, ``The Sorrows of Young Chatbot Users: Harm and Responsibility in Human-AI Relationships,'' \textit{Topoi}, pp. 1--14, 2026.
+
+\bibitem{ref3}
+H. Ahmed Kausar, ``Inteligencia Artificial y Afectividad Simulada: Orientaciones para el Tratamiento Informativo Responsable de las Relaciones Parasociales con Chatbots,'' Master's Thesis, Universitat Autònoma de Barcelona, 2025.
+
+\bibitem{ref4}
+E. Andoh, ``AI Chatbots and Digital Companions Are Reshaping Emotional Connection,'' \textit{Monitor on Psychology}, vol. 57, no. 1, pp. 1--2, 2026.
+
+\bibitem{ref5}
+L. Spytska, ``The Use of Artificial Intelligence in Psychotherapy: Development of Intelligent Therapeutic Systems,'' \textit{BMC Psychology}, vol. 13, no. 1, p. 175, 2025.
+
+\end{thebibliography}
 
 \pagebreak
 
