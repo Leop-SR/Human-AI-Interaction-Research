@@ -6,7 +6,12 @@ import joblib
 # Load Model
 # ======================
 
-model = joblib.load("dependency_model.pkl")
+from pathlib import Path
+
+
+MODEL_PATH = Path(__file__).parent / "dependency_model.pkl"
+
+model = joblib.load(MODEL_PATH)
 
 # ======================
 # Page Config
